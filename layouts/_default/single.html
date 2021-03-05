@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="content__body">
+        {{ .Content }}
+    </div>
+    <footer class="content__footer"></footer>
+{{ end }}
+
+{{define "aside" }}
+    <p>{{ .Params.description }}</p>
+    <p>By {{ .Params.author }}, {{ .Date.Format "2 January 2006" }}</p>
+{{ end }}

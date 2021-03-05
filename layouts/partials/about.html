@@ -1,0 +1,17 @@
+{{ with .Site.Params.about }}
+<div class="aside__about">
+{{ with .logo }}<img class="about__logo" src="{{ . | absURL }}">{{ end }}
+<h1 class="about__title">{{ .title }}</h1>
+{{ with .description }}<p class="about__description">{{ . | markdownify }}</p>{{ end }}
+</div>
+{{ end }}
+
+<ul class="aside__social-links">
+    {{ range $item := .Site.Params.socialLinks }}
+    <li>
+        <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}">
+            <i class="{{ $item.icon }}" aria-hidden="true"></i>
+        </a>
+    </li>
+    {{ end }}
+</ul>

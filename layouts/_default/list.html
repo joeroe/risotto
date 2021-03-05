@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h2>
+
+    {{ .Content }}
+
+    <ul>
+    {{ range .Pages }}
+        {{ .Render "li" }}
+    {{ end }}
+    </ul>
+
+{{ end }}

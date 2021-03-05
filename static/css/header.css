@@ -1,0 +1,18 @@
+/* Main menu */
+.main-nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+.main-nav li {
+    margin-left: 2.5rem;
+    text-transform: lowercase;
+}
+
+.main-nav li::marker {
+    content: "./";
+}
+

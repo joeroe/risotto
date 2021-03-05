@@ -1,0 +1,7 @@
+:root {
+    --bg: var(--black);
+    --dark-bg: var(--dark-black);
+    --bright-bg: var(--bright-black);
+    --fg: var(--white);
+    --bright-fg: var(--bright-white);
+}

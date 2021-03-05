@@ -1,0 +1,26 @@
+/* About/bio section */
+.about__logo {
+    height: 1.5rem;
+}
+
+.about__title {
+    display: inline;
+    vertical-align: top;
+}
+
+.about__title::before {
+    content: none;
+}
+
+/* Social media links */
+.aside__social-links {
+    padding: 0;
+}
+
+.aside__social-links li {
+    display: inline-block;
+}
+
+.aside__social-links li::marker {
+    content: none;
+}

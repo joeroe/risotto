@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header">
+                {{- partial "header.html" . -}}
+            </header>
+
+            <section class="page__body">
+                {{- block "main" . }}{{- end }}
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+                    {{- partial "about.html" . -}}
+                </div>
+                <hr>
+                <div class="aside__content">
+                    {{- block "aside" . }}{{- end }}
+                </div>
+            </section>
+
+            <footer class="page__footer">
+                {{- partial "footer.html" . -}}
+            </footer>
+
+        </div>
+    </body>
+
+</html>
