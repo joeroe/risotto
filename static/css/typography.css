@@ -93,12 +93,16 @@ ol ol {
 }
 
 ul li::marker {
-    content: '∗ ';
+    content: '∗';
     color: var(--bright-bg);
 }
 
 ol li::marker {
     color: var(--bright-bg);
+}
+
+.page__body ul li, .page__aside ul li {
+    padding-left: 0.5rem;
 }
 
 /* Blockquotes */
