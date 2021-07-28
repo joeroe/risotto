@@ -6,26 +6,36 @@ risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by 
 
 ## Install
 
-To use the theme, clone this repository into your site's `themes` directory:
+The easiest way to install the theme is to clone this repository into your site's `themes` directory:
 
 ```shell
-cd ./themes
-git clone https://github.com/joeroe/risotto risotto
+git clone https://github.com/joeroe/risotto themes/risotto
 ```
 
-Then add `theme = risotto` to your site's `config.toml` or `config.yaml`.
+If your site is already a git repository, you can add the theme as a submodule instead:
 
-## Configuration
+```shell
+git submodule add https://github.com/joeroe/risotto.git themes/risotto
+```
+
+## Configure
+
+To use the theme, add `theme = risotto` to your site's `config.toml` or `config.yaml`.
 
 See `exampleSite/config.toml` for the theme-specific parameters you need to add to your site's `config.toml` or `config.yaml` to configure the theme.
 
-## Updating
+## Update
 
-Use git to get the latest version of the theme:
+If you installed the theme using `git clone`, pull the repository to get the latest version:
 
 ```shell
-cd ./themes/risotto
+cd themes/risotto
 git pull
 ```
 
+Or, if you added it as a git submodule:
+
+```shell
+git submodule update --remote
+```
 
