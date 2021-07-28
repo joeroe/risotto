@@ -2,8 +2,11 @@ name = "risotto"
 license = "MIT"
 licenselink = "https://github.com/joeroe/risotto/blob/master/LICENSE"
 description = "A minimalist, responsive theme inspired by terminal ricing aesthetics."
-homepage = "https://risotto.joeroe.io"
-tags = []
+
+homepage = "https://github.com/joeroe/risotto"
+# demosite = "https://risotto.joeroe.io"
+
+tags = ["responsive", "minimal", "dark mode"]
 features = []
 min_version = "0.41.0"
 
