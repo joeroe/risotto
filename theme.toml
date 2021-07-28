@@ -4,7 +4,7 @@ licenselink = "https://github.com/joeroe/risotto/blob/master/LICENSE"
 description = "A minimalist, responsive theme inspired by terminal ricing aesthetics."
 
 homepage = "https://github.com/joeroe/risotto"
-# demosite = "https://risotto.joeroe.io"
+demosite = "https://risotto.joeroe.io"
 
 tags = ["responsive", "minimal", "dark mode"]
 features = []
