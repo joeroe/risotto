@@ -124,8 +124,8 @@ blockquote::before {
 pre,
 code, 
 kbd {
-    overflow-x: scroll;
-    background: var(--dark-bg);
+    overflow-x: auto;
+    background: var(--dark-bg) !important;
     font-family: var(--font-monospace);
     color: var(--bright-bg);
 }
