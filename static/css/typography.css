@@ -153,3 +153,22 @@ hr:after {
     color: var(--bright-bg);
 }
 
+/* Tables */
+table {
+    border-spacing: 0;
+    border: outset .75rem var(--gray);
+    margin: 0 0 1.5rem 0;
+    overflow-wrap: anywhere;
+    background: var(--gray);
+    color: var(--dark-bg);
+}
+tbody tr:nth-child(odd) {
+   background: var(--bright-gray);
+}
+th, td {
+    padding: .75rem;
+    vertical-align: top;
+}
+th {
+    text-align: inherit;
+}
