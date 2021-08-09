@@ -9,6 +9,11 @@
 {{ end }}
 
 {{define "aside" }}
-    <p>{{ .Params.description }}</p>
-    <p>By {{ .Params.author }}, {{ .Date.Format "2 January 2006" }}</p>
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+    {{ if or (.Params.author) (.Params.date) }}
+        <p>
+            {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
+            {{ if .Date }}{{ .Date.Format "2 January 2006" }}{{ end }}
+        </p>
+    {{ end }}
 {{ end }}
