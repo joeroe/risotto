@@ -153,3 +153,13 @@ hr:after {
     color: var(--bright-bg);
 }
 
+/* Prevent super/sub from affecting line height */
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.25rem;
+    font-size: unset;
+}
+sub { 
+    top: 0.25rem; 
+}
