@@ -163,3 +163,20 @@ sup, sub {
 sub { 
     top: 0.25rem; 
 }
+
+/* Tables */
+table {
+    border-spacing: 0;
+    margin: 0 0 1.5rem 0;
+    overflow-wrap: anywhere;
+}
+th, td {
+    padding: 0 .75rem;
+    vertical-align: top;
+}
+th:first-child, td:first-child {
+    padding-left: 0;
+}
+th {
+    text-align: inherit;
+}
