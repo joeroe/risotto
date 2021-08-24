@@ -43,6 +43,7 @@
     grid-area: body;
     background-color: var(--bg);
     box-shadow: 0 0 0 1rem var(--bg);
+    overflow-wrap: break-word;
 }
 
 .page__aside {
