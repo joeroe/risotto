@@ -101,6 +101,24 @@ ol li::marker {
     color: var(--bright-bg);
 }
 
+dt {
+  margin: 0;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 0 1.5rem;
+  font-style: italic;
+}
+
+dd + dt {
+  margin-top: 1.5rem;
+}
+
+dl {
+  margin: 0 0 1.5rem 0;
+}
+
 /* Blockquotes */
 blockquote {
     position: relative;
@@ -123,14 +141,15 @@ blockquote::before {
 /* Code */
 pre,
 code, 
-kbd {
-    overflow-x: auto;
+kbd,
+samp {
     background: var(--dark-bg) !important;
     font-family: var(--font-monospace);
     color: var(--bright-bg);
 }
 
 pre {
+    overflow-x: auto;
     padding: 1.5rem;
     margin: 0 0 1.5rem 0;
 }
@@ -157,6 +176,7 @@ hr:after {
     content: '---';
     color: var(--bright-bg);
 }
+
 
 /* Prevent super/sub from affecting line height */
 sup, sub {
