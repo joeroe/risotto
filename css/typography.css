@@ -130,6 +130,11 @@ kbd {
     color: var(--bright-bg);
 }
 
+pre {
+    padding: 1.5rem;
+    margin: 0 0 1.5rem 0;
+}
+
 /* Emphasis */
 b,
 strong {
