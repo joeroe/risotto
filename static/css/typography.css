@@ -151,6 +151,7 @@ mark {
 /* Other typographic elements */
 hr {
     border: 0;
+    margin-bottom: 1.5rem;
 }
 
 hr:after {
