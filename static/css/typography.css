@@ -206,3 +206,9 @@ th:first-child, td:first-child {
 th {
     text-align: inherit;
 }
+
+/* Figures */
+img {
+    max-width: 100%;
+    height: auto;
+}

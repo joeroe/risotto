@@ -1,3 +1,1 @@
-+++
-author = "Hugo Authors"
-+++
+../../README.md
