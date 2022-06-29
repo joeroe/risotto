@@ -1,6 +1,6 @@
-<h1 class="page__logo"><a href="{{ .Site.BaseURL }}" class="page__logo-inner">{{ .Site.Title }}</a></h1>
 <nav class="page__nav main-nav">
     <ul>
+    <h1 class="page__logo"><a href="{{ .Site.BaseURL }}" class="page__logo-inner">{{ .Site.Title }}</a></h1>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class="main-nav__item"><a class="nav-main-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>

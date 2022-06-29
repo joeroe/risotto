@@ -5,10 +5,12 @@
     justify-content: flex-start;
     margin: 0;
     padding: 0.25rem 0;
+    gap: 0rem 1.5rem;
 }
 
 .main-nav li {
-    margin-left: 2.5rem;
+    padding-top: 0.25rem;
+    margin-left: 1rem;
     text-transform: lowercase;
 }
 
