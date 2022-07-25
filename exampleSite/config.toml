@@ -15,6 +15,7 @@ ignoreErrors = ["error-remote-getjson"]
 sectionPagesMenu = "main"
 
 [params]
+noindex = false
 
 [params.theme]
 palette = "gruvbox-dark"
