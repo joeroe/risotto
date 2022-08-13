@@ -1,0 +1,10 @@
+:root {
+    --bg: var(--dusty-rose);
+    --dark-bg: var(--dark-pink);
+    --bright-bg: var(--light-pink);
+    --fg: var(--really-light-pink);
+    --bright-fg: var(--aqua);
+    --logo-bg: var(--aqua);
+    --logo-hover: var(--bright-aqua);
+    --highlight-bg: var(--aqua);
+}
