@@ -4,4 +4,7 @@
     --bright-bg: var(--bright-black);
     --fg: var(--white);
     --bright-fg: var(--bright-white);
+    --logo-bg: var(--green);
+    --logo-hover: var(--bright-green);
+    --highlight-bg: var(--yellow);
 }
