@@ -163,7 +163,7 @@ strong {
 /* Highlighting */
 ::selection,
 mark {
-    background-color: var(--yellow);
+    background-color: var(--highlight-bg);
     color: var(--bg);
 }
 
