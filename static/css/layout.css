@@ -41,14 +41,14 @@
 /* Body + aside */
 .page__body {
     grid-area: body;
-    background-color: var(--bg);
-    box-shadow: 0 0 0 1rem var(--bg);
+    background-color: var(--off-bg);
+    box-shadow: 0 0 0 1rem var(--off-bg);
     overflow-wrap: break-word;
 }
 
 .page__aside {
     grid-area: aside;
-    color: var(--bright-bg);
+    color: var(--off-fg);
 }
 
 /* Footer */
