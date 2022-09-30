@@ -18,7 +18,7 @@ sectionPagesMenu = "main"
 noindex = false
 
 [params.theme]
-palette = "gruvbox-light"
+palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
