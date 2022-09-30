@@ -15,10 +15,10 @@ ignoreErrors = ["error-remote-getjson"]
 sectionPagesMenu = "main"
 
 [params]
+noindex = false
 
 [params.theme]
-palette = "gruvbox-dark"
-mode = "dark-mode"
+palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
@@ -28,16 +28,16 @@ logo = "images/rice.svg"
 
 # Sidebar: social links
 # Available icon sets:
-# * FontAwesome 5 <https://fontawesome.com/> ('fas fa-' or 'fab-fa' for brands)
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
 # * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
 [[params.socialLinks]]
-icon = "fab fa-github"
+icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/joeroe/risotto"
 
 [[params.socialLinks]]
-icon = "fas fa-envelope"
+icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:example@example.com"
 
