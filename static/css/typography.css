@@ -70,7 +70,7 @@ a:link, a:visited {
     color: var(--link);
 }
 
-a:hover, a:active {
+a:hover, a:active, a.active {
     color: var(--hover);
 }
 
