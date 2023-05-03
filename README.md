@@ -41,7 +41,15 @@ See `exampleSite/config.toml` for the theme-specific parameters you need to add 
 
 ### Colour palettes
 
-Colour palettes for the theme are defined using the [base16 system](https://github.com/chriskempson/base16):
+risotto uses the [base16 framework](https://github.com/chriskempson/base16) to define colour schemes that can be used with the `theme.palette` parameter.
+A selection of 16 palettes (10 dark, 6 light) are bundled with the theme: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `gruvbox-dark`, `gruvbox-light`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
+The default is `base16-dark`.
+
+<!-- TODO: add screenshots of default themes -->
+
+The easiest way to use other base16 styles is to place .css file from https://github.com/monicfenga/base16-styles/tree/master/css-variables and place it in your `static/css/palettes` directory.
+
+Or to define a wholly custom theme, you will need to define the following CSS variables for the following base16 colours (see [base16-dark.css](blob/main/static/css/palettes/base16-dark.css) for an example):
 
 | Base | Default colour | Used for | Examples |
 | ---- | -------------- | -------- | -------- |
@@ -63,3 +71,4 @@ Colour palettes for the theme are defined using the [base16 system](https://gith
 | 0F   | Brown          |          |          |
 
 For light mode palettes, the sequence of 00–07 should be reversed (light to dark, not dark to light).
+Note that not all colours are currently used in the theme.
