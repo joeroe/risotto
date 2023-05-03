@@ -9,6 +9,7 @@
   * If you were using a custom palette, you will need to redefine it using the new framework
 * Added a table of contents (thanks @dashv, #47)
 * Added multilanguage support with a language switcher (thanks @bedefaced)
+* Made the site header and nav wrap more efficiently on narrow screens (thanks @m-dev672, #32)
 * Added a changelog
 
 # risotto 0.1.0
