@@ -1,5 +1,7 @@
 # risotto (development version)
 
+# risotto 0.2.0
+
 * **Breaking change** – new framework for colour palettes:
   * Palettes are defined using CSS variables following the [base16](https://github.com/chriskempson/base16) system
   * Added 14 new palettes: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
