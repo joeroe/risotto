@@ -49,10 +49,9 @@
 .page__aside {
     grid-area: aside;
     color: var(--off-fg);
-    position: fixed;
-    top: 5rem;
-    width: 15rem;
-    margin-left: 50rem;
+    position: sticky;
+    top: 1rem;
+    right: 1rem;
     overflow-y: auto;
     max-height: 95vh;
 }
