@@ -51,10 +51,10 @@
     color: var(--off-fg);
     position: fixed;
     top: 5rem;
-    right: 28rem;
     width: 15rem;
-    max-height: calc(100vh - 9rem);
+    margin-left: 50rem;
     overflow-y: auto;
+    max-height: 95vh;
 }
 
 /* Footer */
