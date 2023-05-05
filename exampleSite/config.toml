@@ -63,6 +63,15 @@ series = "series"
 [markup.goldmark.renderer]
 unsafe = true
 
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
 [privacy]
 
   [privacy.vimeo]

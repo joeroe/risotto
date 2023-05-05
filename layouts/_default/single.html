@@ -4,7 +4,6 @@
     </header>
     {{ if .Params.toc }}
     <aside>
-        {{ .TableOfContents }}
     </aside>
     {{ end }}
     <div class="content__body">
@@ -20,5 +19,11 @@
             {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
             {{ if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}
         </p>
+    {{ end }}
+
+    {{ if and (.Params.toc) (.TableOfContents) }}
+	    <hr>
+	    On this page:
+	    {{ .TableOfContents }}
     {{ end }}
 {{ end }}
