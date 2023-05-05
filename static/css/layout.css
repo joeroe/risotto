@@ -53,6 +53,8 @@
     top: 5rem;
     right: 28rem;
     width: 15rem;
+    max-height: calc(100vh - 9rem);
+    overflow-y: auto;
 }
 
 /* Footer */
