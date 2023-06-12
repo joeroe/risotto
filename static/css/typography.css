@@ -147,6 +147,8 @@ samp {
     background: var(--inner-bg) !important;
     font-family: var(--font-monospace);
     color: var(--off-fg);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 pre {
