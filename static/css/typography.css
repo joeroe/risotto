@@ -18,6 +18,7 @@ h5,
 h6 {
     font-size: 1rem;
     margin: 1.5rem 0 0 0;
+    padding-bottom: 1.0rem;
     font-weight: 600;
 }
 
