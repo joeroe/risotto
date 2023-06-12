@@ -13,5 +13,8 @@
 	--highlight: var(--base0A);
 
 	/* Logo */
-	--logo: var(--base0B);
+	--logo-bg: var(--base00);
+	--logo-text: var(--base05);
+	--logo-host: var(--base0B);
+	--logo-path: var(--base0E);
 }
