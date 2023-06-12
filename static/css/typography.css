@@ -10,11 +10,11 @@ body {
 }
 
 /* Headings */
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     font-size: 1rem;
     margin: 1.5rem 0 0 0;
@@ -47,11 +47,11 @@ h4:before { content: "#### "; }
 h5:before { content: "##### "; }
 h6:before { content: "###### "; }
 
-h1:before, 
-h2:before, 
-h3:before, 
-h4:before, 
-h5:before, 
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
 h6:before {
     color: var(--muted);
 }
@@ -141,7 +141,7 @@ blockquote::before {
 
 /* Code */
 pre,
-code, 
+code,
 kbd,
 samp {
     background: var(--inner-bg) !important;
@@ -189,8 +189,8 @@ sup, sub {
     top: -0.25rem;
     font-size: unset;
 }
-sub { 
-    top: 0.25rem; 
+sub {
+    top: 0.25rem;
 }
 
 /* Tables */
@@ -215,4 +215,3 @@ img {
     max-width: 100%;
     height: auto;
 }
-
