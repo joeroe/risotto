@@ -215,3 +215,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.align-right {
+    float: right;
+}
