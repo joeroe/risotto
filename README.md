@@ -72,3 +72,21 @@ Or to define a wholly custom theme, you will need to define the following CSS va
 
 For light mode palettes, the sequence of 00–07 should be reversed (light to dark, not dark to light).
 Note that not all colours are currently used in the theme.
+
+## Favicon
+
+risotto will automatically use favicons placed in the `static/` directory.
+The following files will be detected and included in your site's `<head>` section:
+
+* `favicon.ico`
+* `favicon-16x16.png`
+* `favicon-32x32.png`
+* `apple-touch-icon.png`
+* `site.webmanifest`
+
+You can generate these from an image or emoji using [favicon.io](https://favicon.io/) or a similar service.
+They must be placed directly under your site's `static/` directory, i.e. not in in a subdirectory or `themes/risotto/static/`.
+
+## Acknowledgements
+
+The 'cooked rice' emoji used as a favicon for the example site was created by the [Twemoji project](https://twemoji.twitter.com/) and is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).

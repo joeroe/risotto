@@ -15,3 +15,10 @@
 <link rel="stylesheet" href="{{ printf "css/palettes/%s.css" (.Site.Params.theme.palette | default "base16-dark") | absURL }}">
 <link rel="stylesheet" href="{{ "css/risotto.css" | absURL }}">
 <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+
+<!-- favicon -->
+{{ if os.FileExists "static/favicon.ico" }}<link rel="icon" href="{{ "favicon.ico" | absURL }}">{{ end }}
+{{ if os.FileExists "static/favicon-32x32.png" }}<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | absURL }}">{{ end }}
+{{ if os.FileExists "static/favicon-16x16.png" }}<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | absURL }}">{{ end }}
+{{ if os.FileExists "static/apple-touch-icon.png" }}<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">{{ end }}
+{{ if os.FileExists "static/site.webmanifest" }}<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">{{ end }}
