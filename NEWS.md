@@ -1,5 +1,7 @@
 # risotto (development version)
 
+# risotto 0.3.0
+
 * Added support for favicons (#57)
 
 # risotto 0.2.0
