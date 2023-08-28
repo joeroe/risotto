@@ -1,5 +1,7 @@
 # risotto (development version)
 
+* Added support for favicons (#57)
+
 # risotto 0.2.0
 
 * **Breaking change** – new framework for colour palettes:
