@@ -1,6 +1,7 @@
 # risotto (development version)
 
 * Fix overflow of code blocks with line numbers (#41)
+* Add descriptions to sidebar of list pages, where defined in the frontmatter of `_index.md` (#55)
 
 # risotto 0.3.0
 
