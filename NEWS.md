@@ -1,5 +1,7 @@
 # risotto (development version)
 
+* Fix overflow of code blocks with line numbers (#41)
+
 # risotto 0.3.0
 
 * Added support for favicons (#57)
