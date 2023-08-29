@@ -154,6 +154,12 @@ pre {
     margin: 0 0 1.5rem 0;
 }
 
+/* Fix overflow when config markup.highlight.lineNos is true */
+/* See https://github.com/joeroe/risotto/issues/41 */
+.highlight div {
+	overflow-x: auto;
+}
+
 /* Emphasis */
 b,
 strong {
