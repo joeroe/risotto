@@ -64,24 +64,24 @@ The easiest way to use other base16 styles is to place .css file from https://gi
 
 Or to define a wholly custom theme, you will need to define the following CSS variables for the following base16 colours (see [base16-dark.css](blob/main/static/css/palettes/base16-dark.css) for an example):
 
-| Base | Default colour | Used for | Examples |
-| ---- | -------------- | -------- | -------- |
-| 00   | Dark           | Background | Page background          |
-| 01   | │              | Alt. background | Content background          |
-| 02   | │              | In-text backgrounds | `<pre>`, `<code>`, `<kbd>`, `<samp>` |
-| 03   | │              | Muted text | `:before` & `:marker` symbols |
-| 04   | │              | Alt. foreground | Aside text          |
-| 05   | │              | Foreground         | Content text         |
-| 06   | │              |          |          |
-| 07   | Light          |          |          |
-| 08   | Red            |          |          |
-| 09   | Orange         |          |          |
-| 0A   | Yellow         | Highlights | Selected text, `<mark>` |
-| 0B   | Green          | Primary accent | Logo          |
-| 0C   | Cyan           | Active links | `a:active`, `a:hover`         |
-| 0D   | Blue           | Links    | `a:link`, `a:visited`         |
-| 0E   | Magenta        |          |          |
-| 0F   | Brown          |          |          |
+| Base | Default colour                             | Used for            | Examples                             |
+| ---- | ------------------------------------------ | ------------------- | ------------------------------------ |
+| 00   | <span class="base00">Dark</span>           | Background          | Page background                      |
+| 01   | <span class="base01">│</span>              | Alt. background     | Content background                   |
+| 02   | <span class="base02">│</span>              | In-text backgrounds | `<pre>`, `<code>`, `<kbd>`, `<samp>` |
+| 03   | <span class="base03">│</span>              | Muted text          | `:before` & `:marker` symbols        |
+| 04   | <span class="base04">│</span>              | Alt. foreground     | Aside text                           |
+| 05   | <span class="base05">│</span>              | Foreground          | Content text                         |
+| 06   | <span class="base06">│</span>              |                     |                                      |
+| 07   | <span class="base07">Light</span>          |                     |                                      |
+| 08   | <span class="base08">Red</span>            |                     |                                      |
+| 09   | <span class="base09">Orange</span>         |                     |                                      |
+| 0A   | <span class="base0A">Yellow</span>         | Highlights          | Selected text, `<mark>`              |
+| 0B   | <span class="base0B">Green</span>          | Primary accent      | Logo                                 |
+| 0C   | <span class="base0C">Cyan</span>           | Active links        | `a:active`, `a:hover`                |
+| 0D   | <span class="base0D">Blue</span>           | Links               | `a:link`, `a:visited`                |
+| 0E   | <span class="base0E">Magenta</span>        |                     |                                      |
+| 0F   | <span class="base0F">Brown</span>          |                     |                                      |
 
 For light mode palettes, the sequence of 00–07 should be reversed (light to dark, not dark to light).
 Note that not all colours are currently used in the theme.
