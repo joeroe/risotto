@@ -4,10 +4,10 @@
     max-width: 64rem;
     margin: 1rem auto;
     display: grid;
-    grid-template-areas: 
-      "header" 
-      "body" 
-      "aside" 
+    grid-template-areas:
+      "header"
+      "body"
+      "aside"
       "footer";
     grid-template-columns: minmax(0, 1fr); /* https://css-tricks.com/preventing-a-grid-blowout/ */
     grid-row-gap: 2rem;
@@ -49,6 +49,11 @@
 .page__aside {
     grid-area: aside;
     color: var(--off-fg);
+    position: sticky;
+    top: 1rem;
+    right: 1rem;
+    overflow-y: auto;
+    max-height: 95vh;
 }
 
 /* Footer */
