@@ -8,7 +8,6 @@ demosite = "https://risotto.joeroe.io"
 
 tags = ["responsive", "minimal", "dark mode"]
 features = []
-min_version = "0.41.0"
 
 [author]
   name = "Joe Roe"

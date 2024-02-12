@@ -1,5 +1,7 @@
 # risotto (development version)
 
+# risotto 0.4.0
+
 * Added descriptions to sidebar of list pages, where defined in the frontmatter of `_index.md` (#55)
 * Made sidebar sticky, avoiding overflow for long tables of contents (#51)
 * Added convenience classes for colours, e.g. `.base00` and `.bg-base00`.
