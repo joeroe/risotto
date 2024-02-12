@@ -1,7 +1,13 @@
 # risotto (development version)
 
-* Fix overflow of code blocks with line numbers (#41)
-* Add descriptions to sidebar of list pages, where defined in the frontmatter of `_index.md` (#55)
+* Fixed overflow of code blocks with line numbers (#41)
+* Added descriptions to sidebar of list pages, where defined in the frontmatter of `_index.md` (#55)
+* Made sidebar sticky, avoiding overflow for long tables of contents (#51)
+* Updated FontAwesome to 6.5.1 (#63)
+  * Please note that future versions will probably not include FontAwesome by default
+* Updated Academicons to 1.9.4 (#63)
+  * Please note that future versions will probably not include Academicons by default
+* Fixed invalid HTML in page header (#64)
 
 # risotto 0.3.0
 
