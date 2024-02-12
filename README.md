@@ -24,7 +24,7 @@ You can also clone this repository into your site's `themes` directory and check
 
 ```shell
 git clone https://github.com/joeroe/risotto themes/risotto && cd themes/risotto
-rit checkout $(git tag -l | grep '^v[0-9.]*$' | sort -V | tail -n 1)
+git checkout $(git tag -l | grep '^v[0-9.]*$' | sort -V | tail -n 1)
 ```
 
 Note that this will not work if your site is itself a git repository.
