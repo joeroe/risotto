@@ -10,6 +10,13 @@ risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by 
 
 ![Screenshot of the risotto theme](https://raw.githubusercontent.com/joeroe/risotto/master/images/screenshot.png)
 
+## Features
+
+* Plain, semantic HTML with no Javascript
+* Plain CSS – no frameworks, no preprocessors, just simple and easy-to-customise stylesheets
+* Uses [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) for native responsive behaviour without arbitrary breakpoints
+* Comes with [16 built-in colour schemes](#colour-palettes) based on popular terminal themes plus the ability to use custom themes using the [base16 system](https://github.com/monicfenga/base16-styles)
+
 ## Install
 
 The easiest way to install the theme is to clone this repository into your site's `themes` directory:
