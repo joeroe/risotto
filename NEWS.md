@@ -1,5 +1,7 @@
 # risotto (development version)
 
+* Fixed invalid HTML in header nav
+
 # risotto 0.4.0
 
 * Added descriptions to sidebar of list pages, where defined in the frontmatter of `_index.md` (#55)
