@@ -1,5 +1,7 @@
 # risotto (development version)
 
+* **Breaking change:** The config parameter `logo` now expects a character, e.g. an emoji or Unicode symbol.
+  * For the old behaviour, use `logo_image`
 * Fixed invalid HTML in header nav
 
 # risotto 0.4.0

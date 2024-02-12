@@ -24,7 +24,10 @@ palette = "base16-dark"
 [params.about]
 title = "risotto"
 description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
-logo = "images/rice.svg"
+# unicode/emoji logo:
+logo = "🍚"
+# or use an image:
+#logo_image = "images/rice.svg"
 
 # Sidebar: social links
 # Available icon sets:

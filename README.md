@@ -1,4 +1,4 @@
-# risotto
+# 🍚 risotto
 
 risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by terminal ricing aesthetics.
 
