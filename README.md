@@ -15,7 +15,7 @@ risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by 
 * Plain, semantic HTML with no Javascript
 * Plain CSS – no frameworks, no preprocessors, just simple and easy-to-customise stylesheets
 * Uses [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) for native responsive behaviour without arbitrary breakpoints
-* Comes with [16 built-in colour schemes](#colour-palettes) based on popular terminal themes plus the ability to use custom themes using the [base16 system](https://github.com/monicfenga/base16-styles)
+* Comes with [16 built-in colour schemes](#colour-schemes) based on popular terminal themes plus the ability to use custom themes using the [base16 system](https://github.com/monicfenga/base16-styles)
 
 ## Install
 
@@ -52,7 +52,7 @@ To use the theme, add `theme = 'risotto'` to your site's `config.toml`, or `them
 
 See `exampleSite/config.toml` for the theme-specific parameters you need to add to your site's `config.toml` or `config.yaml` to configure the theme.
 
-### Colour palettes
+### Colour schemes
 
 risotto uses the [base16 framework](https://github.com/chriskempson/base16) to define colour schemes that can be used with the `theme.palette` parameter.
 A selection of 16 palettes (10 dark, 6 light) are bundled with the theme: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `gruvbox-dark`, `gruvbox-light`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
@@ -85,6 +85,14 @@ Or to define a wholly custom theme, you will need to define the following CSS va
 
 For light mode palettes, the sequence of 00–07 should be reversed (light to dark, not dark to light).
 Note that not all colours are currently used in the theme.
+
+You you use these colours directly in content using the convenience classes `.baseXX` and `.bg-baseXX`.
+For example:
+
+```html
+<span class="base0A">Yellow text</span>
+<mark class="base0D">Text highlighted in green</mark>
+```
 
 ## Favicon
 
