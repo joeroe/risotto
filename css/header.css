@@ -3,14 +3,13 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: center;
     margin: 0;
-    padding: 0 0 0.25rem 0;
-    gap: 0rem 1.5rem;
+    padding: 0;
+    gap: 0.5rem 2rem;
 }
 
 .main-nav li {
-    padding-top: 0.25rem;
-    margin-left: 1rem;
     text-transform: lowercase;
 }
 

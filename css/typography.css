@@ -101,6 +101,10 @@ ol li::marker {
     color: var(--muted);
 }
 
+li.nomarker {
+    display: block;
+}
+
 dt {
   margin: 0;
   font-weight: bold;
