@@ -43,9 +43,9 @@ Otherwise, simply [download the latest release](https://github.com/joeroe/risott
 
 ## Configure
 
-To use the theme, add `theme = 'risotto'` to your site's `config.toml`, or `theme: risotto` to your `config.yaml`.
+To use the theme, add `theme = 'risotto'` to your site's `hugo.toml`, or `theme: risotto` to your `hugo.yaml`.
 
-See `exampleSite/config.toml` for the theme-specific parameters you need to add to your site's `config.toml` or `config.yaml` to configure the theme.
+See `exampleSite/config.toml` for the theme-specific parameters you need to add to your site's `hugo.toml` or `hugo.yaml` to configure the theme.
 
 ### Colour schemes
 
