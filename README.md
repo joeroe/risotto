@@ -86,7 +86,7 @@ For example:
 
 ```html
 <span class="base0A">Yellow text</span>
-<mark class="base0D">Text highlighted in green</mark>
+<mark class="bg-base0D">Text highlighted in green</mark>
 ```
 
 ## Favicon
