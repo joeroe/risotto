@@ -37,6 +37,8 @@ logo = "🍚"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
+# When using "_blank" for "target", the link will open in a new tab or window. By default, it is set to "_self".
+target = "_blank"
 url = "https://github.com/joeroe/risotto"
 
 [[params.socialLinks]]
