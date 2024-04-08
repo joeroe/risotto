@@ -103,6 +103,10 @@ The following files will be detected and included in your site's `<head>` sectio
 You can generate these from an image or emoji using [favicon.io](https://favicon.io/) or a similar service.
 They must be placed directly under your site's `static/` directory, i.e. not in in a subdirectory or `themes/risotto/static/`.
 
+## Multilingual Support
+
+You can enable automatic multilingual support for this theme through the key `theme.enableMultilingual`.
+
 ## Acknowledgements
 
 The 'cooked rice' emoji used as a favicon for the example site was created by the [Twemoji project](https://twemoji.twitter.com/) and is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).

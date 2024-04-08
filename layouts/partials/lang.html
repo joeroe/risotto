@@ -1,3 +1,4 @@
+{{ if .Site.Params.theme.enableMultilingual }}
 <p>
     {{ $siteLanguages := .Site.Languages }}
     {{ $pageLang := .Page.Lang }}
@@ -26,3 +27,4 @@
     {{ end }}
 </p>
 <br /><br />
+{{ end }}
