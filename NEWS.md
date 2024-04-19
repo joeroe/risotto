@@ -3,6 +3,7 @@
 * **Breaking change:** The config parameter `logo` now expects a character, e.g. an emoji or Unicode symbol.
   * For the old behaviour, use `logo_image`
 * Fixed invalid HTML in header nav
+* Added RSS feed references to head element (#73, after <https://gohugo.io/templates/rss/>)
 
 # risotto 0.4.0
 
