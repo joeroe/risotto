@@ -19,7 +19,7 @@ risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by 
 
 ## Install
 
-The easiest way to install the theme is to [download the latest release](https://github.com/joeroe/risotto/releases/tag/release) and extract it to your project's `themes/` directory.
+The easiest way to install the theme is to [download the latest release](https://github.com/joeroe/risotto/releases) and extract it to your project's `themes/` directory.
 You can also clone this repository into your site's `themes` directory and checkout the latest release:
 
 ```shell
@@ -39,7 +39,7 @@ cd themes/risotto
 git pull
 ```
 
-Otherwise, simply [download the latest release](https://github.com/joeroe/risotto/releases/tag/release) and extract it to your project's `themes/` directory, replacing the old version.
+Otherwise, simply [download the latest release](https://github.com/joeroe/risotto/releases) and extract it to your project's `themes/` directory, replacing the old version.
 
 ## Configure
 
