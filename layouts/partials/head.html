@@ -33,11 +33,9 @@
 <meta property="og:url" content="{{ .Page.Permalink }}" />
 {{ if isset .Params "description" }}
   <meta property="og:description" content="{{ with .Params.description }}{{ . }} &ndash; {{end}}"/> 
-  <meta name="description" content="{{ with .Params.description }}{{ . }} &ndash; {{end}}" /> 
 {{ else }}
   {{ with .Site.Params.about }}
     <meta property="og:description" content="{{ .description }}"/> 
-    <meta name="description" content="{{ .description }}" /> 
   {{ end }}
 {{ end }}
 {{ with .Site.LanguageCode}}<meta property="og:locale" content="{{ . }}" />{{ end }}
