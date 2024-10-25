@@ -4,6 +4,9 @@
   * For the old behaviour, use `logo_image`
 * Fixed invalid HTML in header nav
 * Added RSS feed references to head element (#73, after <https://gohugo.io/templates/rss/>)
+* Updated FontAwesome to 6.6.0 (#88)
+  * Please note that future versions will probably not include FontAwesome by default (#59)
+
 
 # risotto 0.4.0
 
@@ -13,9 +16,9 @@
 * Fixed overflow of code blocks with line numbers (#41)
 * Fixed invalid HTML in page header (#64)
 * Updated FontAwesome to 6.5.1 (#63)
-  * Please note that future versions will probably not include FontAwesome by default
+  * Please note that future versions will probably not include FontAwesome by default (#59)
 * Updated Academicons to 1.9.4 (#63)
-  * Please note that future versions will probably not include Academicons by default
+  * Please note that future versions will probably not include Academicons by default (#59)
 
 # risotto 0.3.0
 
