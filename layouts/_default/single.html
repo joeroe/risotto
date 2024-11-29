@@ -17,6 +17,16 @@
         </p>
     {{ end }}
 
+    {{ range $taxonomy, $terms := .Site.Taxonomies }}
+        {{ if (index $.Params $taxonomy) }}
+            <p>
+            {{ $taxonomy }}: 
+                {{ range $index, $term := (index $.Params $taxonomy) }}{{ if $index }}, {{ end }}
+                <a href="{{ printf "%s/" $taxonomy | relURL }}{{ $term | urlize }}">{{ $term }}</a>{{ end }}
+            </p>
+        {{ end }}
+    {{end}}
+
     {{ if and (.Params.toc) (.TableOfContents) }}
 	    <hr>
 	    On this page:

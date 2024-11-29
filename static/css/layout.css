@@ -52,7 +52,6 @@
     position: sticky;
     top: 1rem;
     right: 1rem;
-    overflow-y: auto;
     max-height: 95vh;
 }
 
