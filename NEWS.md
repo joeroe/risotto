@@ -6,6 +6,7 @@
 * Added RSS feed references to head element (#73, after <https://gohugo.io/templates/rss/>)
 * Updated FontAwesome to 6.6.0 (#88)
   * Please note that future versions will probably not include FontAwesome by default (#59)
+* Fixed deprecated config syntax for pagination (#94)
 
 
 # risotto 0.4.0
