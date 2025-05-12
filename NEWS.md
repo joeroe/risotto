@@ -4,6 +4,7 @@
   * For the old behaviour, use `logo_image`
 * Fixed invalid HTML in header nav
 * Added RSS feed references to head element (#73, after <https://gohugo.io/templates/rss/>)
+* Added [OpenGraph](https://ogp.me/) metadata to head element (#77)
 * Updated FontAwesome to 6.6.0 (#88)
   * Please note that future versions will probably not include FontAwesome by default (#59)
 * Fixed deprecated config syntax for pagination (#94)
