@@ -1,0 +1,12 @@
+<p>
+{{ range $taxonomy, $terms := site.Taxonomies }}
+    {{ with $.GetTerms $taxonomy }}
+        {{ (site.GetPage $taxonomy).LinkTitle }}:
+        {{ range $k, $_ := . -}}
+            {{ if $k }}, {{ end }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{- end }}
+    <br>
+    {{ end }}
+{{ end }}
+</p>
