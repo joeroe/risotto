@@ -3,7 +3,6 @@ theme = "risotto"
 title = "risotto demo"
 author = "Joe Roe"
 copyright = "© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors)."
-paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -13,6 +12,9 @@ ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
+
+[pagination]
+pagerSize = 3
 
 [params]
 noindex = false
