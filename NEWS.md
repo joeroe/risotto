@@ -1,6 +1,7 @@
 # risotto (development version)
 
 * Added colour scheme screenshots to README (#48)
+* Fixed Twitter (now X) shortcode (#97)
 
 # risotto 0.5.0
 
