@@ -136,7 +136,7 @@ blockquote::before {
     color: var(--muted);
 }
 
-.twitter-tweet::before {
+.x-tweet::before {
     content: "\f099";
     font-family: "Font Awesome 5 Brands";
     font-weight: 400;
