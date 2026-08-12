@@ -15,7 +15,7 @@ risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by 
 * Plain, semantic HTML with no Javascript
 * Plain CSS – no frameworks, no preprocessors, just simple and easy-to-customise stylesheets
 * Uses [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) for native responsive behaviour without arbitrary breakpoints
-* Comes with [16 built-in colour schemes](#colour-schemes) based on popular terminal themes plus the ability to use custom themes using the [base16 system](https://github.com/monicfenga/base16-styles)
+* Comes with [20 built-in colour schemes](#colour-schemes) based on popular terminal themes plus the ability to use custom themes using the [base16 system](https://github.com/monicfenga/base16-styles)
 
 ## Install
 
@@ -50,27 +50,31 @@ See `exampleSite/config.toml` for the theme-specific parameters you need to add 
 ### Colour schemes
 
 risotto uses the [base16 framework](https://github.com/chriskempson/base16) to define colour schemes that can be used with the `theme.palette` parameter.
-A selection of 16 palettes (10 dark, 6 light) are bundled with the theme: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `gruvbox-dark`, `gruvbox-light`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
+A selection of 20 palettes (13 dark, 7 light) are bundled with the theme: `apprentice`, `base16-dark`, `base16-light`, `catppuccin-frappe`, `catppuccin-latte`, `catppuccin-macchiato`, `catppuccin-mocha`, `dracula`, `gruvbox-dark`, `gruvbox-light`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
 The default is `base16-dark`.
 
-| Palette           | Preview                                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| apprentice        | <img align="center" width="250" src="images/palette/apprentice.png"        alt="risotto theme with apprentice palette">        |
-| base16-dark       | <img align="center" width="250" src="images/palette/base16-dark.png"       alt="risotto theme with base16-dark palette">       |
-| base16-light      | <img align="center" width="250" src="images/palette/base16-light.png"      alt="risotto theme with base16-light palette">      |
-| dracula           | <img align="center" width="250" src="images/palette/dracula.png"           alt="risotto theme with dracula palette">           |
-| gruvbox-dark      | <img align="center" width="250" src="images/palette/gruvbox-dark.png"      alt="risotto theme with gruvbox-dark palette">      |
-| gruvbox-light     | <img align="center" width="250" src="images/palette/gruvbox-light.png"     alt="risotto theme with gruvbox-light palette">     |
-| material          | <img align="center" width="250" src="images/palette/material.png"          alt="risotto theme with material palette">          |
-| papercolor-dark   | <img align="center" width="250" src="images/palette/papercolor-dark.png"   alt="risotto theme with papercolor-dark palette">   |
-| papercolor-light  | <img align="center" width="250" src="images/palette/papercolor-light.png"  alt="risotto theme with papercolor-light palette">  |
-| solarized-dark    | <img align="center" width="250" src="images/palette/solarized-dark.png"    alt="risotto theme with solarized-dark palette">    |
-| solarized-light   | <img align="center" width="250" src="images/palette/solarized-light.png"   alt="risotto theme with solarized-light palette">   |
-| tender            | <img align="center" width="250" src="images/palette/tender.png"            alt="risotto theme with tender palette">            |
-| tokyo-night-dark  | <img align="center" width="250" src="images/palette/tokyo-night-dark.png"  alt="risotto theme with tokyo-night-dark palette">  |
-| tokyo-night-light | <img align="center" width="250" src="images/palette/tokyo-night-light.png" alt="risotto theme with tokyo-night-light palette"> |
-| windows-95        | <img align="center" width="250" src="images/palette/windows-95.png"        alt="risotto theme with windows-95 palette">        |
-| windows-95-light  | <img align="center" width="250" src="images/palette/windows-95-light.png"  alt="risotto theme with windows-95-light palette">  |
+| Palette              | Preview                                                                                                                            |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| apprentice           | <img align="center" width="250" src="images/palette/apprentice.png"           alt="risotto theme with apprentice palette">           |
+| base16-dark          | <img align="center" width="250" src="images/palette/base16-dark.png"          alt="risotto theme with base16-dark palette">          |
+| base16-light         | <img align="center" width="250" src="images/palette/base16-light.png"         alt="risotto theme with base16-light palette">         |
+| catppuccin-frappe    | <img align="center" width="250" src="images/palette/catppuccin-frappe.png"    alt="risotto theme with catppuccin-frappe palette">    |
+| catppuccin-latte     | <img align="center" width="250" src="images/palette/catppuccin-latte.png"     alt="risotto theme with catppuccin-latte palette">     |
+| catppuccin-macchiato | <img align="center" width="250" src="images/palette/catppuccin-macchiato.png" alt="risotto theme with catppuccin-macchiato palette"> |
+| catppuccin-mocha     | <img align="center" width="250" src="images/palette/catppuccin-mocha.png"     alt="risotto theme with catppuccin-mocha palette">     |
+| dracula              | <img align="center" width="250" src="images/palette/dracula.png"              alt="risotto theme with dracula palette">              |
+| gruvbox-dark         | <img align="center" width="250" src="images/palette/gruvbox-dark.png"         alt="risotto theme with gruvbox-dark palette">         |
+| gruvbox-light        | <img align="center" width="250" src="images/palette/gruvbox-light.png"        alt="risotto theme with gruvbox-light palette">        |
+| material             | <img align="center" width="250" src="images/palette/material.png"             alt="risotto theme with material palette">             |
+| papercolor-dark      | <img align="center" width="250" src="images/palette/papercolor-dark.png"      alt="risotto theme with papercolor-dark palette">      |
+| papercolor-light     | <img align="center" width="250" src="images/palette/papercolor-light.png"     alt="risotto theme with papercolor-light palette">     |
+| solarized-dark       | <img align="center" width="250" src="images/palette/solarized-dark.png"       alt="risotto theme with solarized-dark palette">       |
+| solarized-light      | <img align="center" width="250" src="images/palette/solarized-light.png"      alt="risotto theme with solarized-light palette">      |
+| tender               | <img align="center" width="250" src="images/palette/tender.png"               alt="risotto theme with tender palette">               |
+| tokyo-night-dark     | <img align="center" width="250" src="images/palette/tokyo-night-dark.png"     alt="risotto theme with tokyo-night-dark palette">     |
+| tokyo-night-light    | <img align="center" width="250" src="images/palette/tokyo-night-light.png"    alt="risotto theme with tokyo-night-light palette">    |
+| windows-95           | <img align="center" width="250" src="images/palette/windows-95.png"           alt="risotto theme with windows-95 palette">           |
+| windows-95-light     | <img align="center" width="250" src="images/palette/windows-95-light.png"     alt="risotto theme with windows-95-light palette">     |
 
 The easiest way to use other base16 styles is to place .css file from https://github.com/monicfenga/base16-styles/tree/master/css-variables and place it in your `static/css/palettes` directory.
 
