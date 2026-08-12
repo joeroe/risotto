@@ -1,8 +1,8 @@
 # risotto (development version)
 
-* Added [Catppuccin](https://github.com/catppuccin/catppuccin) colour schemes: `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato` and `catppuccin-mocha` (thanks @cmyksoda, #100)
 * Bundled CSS via Hugo asset pipeline to reduce render-blocking requests (#99, thanks @0xDedSec42)
   * **Breaking change:** Custom CSS must now be placed in `assets/css/custom.css` instead of `static/css/custom.css`
+* Added [Catppuccin](https://github.com/catppuccin/catppuccin) colour schemes: `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato` and `catppuccin-mocha` (thanks @cmyksoda, #100)
 
 # risotto 0.5.1
 
