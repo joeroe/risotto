@@ -1,6 +1,6 @@
 # risotto (development version)
 
-* Added [Catppuccin](https://github.com/catppuccin/catppuccin) colour schemes: `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato` and `catppuccin-mocha`
+* Added [Catppuccin](https://github.com/catppuccin/catppuccin) colour schemes: `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato` and `catppuccin-mocha` (thanks @cmyksoda, #100)
 
 # risotto 0.5.1
 
