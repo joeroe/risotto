@@ -30,6 +30,14 @@ git checkout $(git tag -l | grep '^v[0-9.]*$' | sort -V | tail -n 1)
 Note that this will not work if your site is itself a git repository.
 In that case, you can add the theme as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), but this is not recommended due to the difficulty of tracking a specific release.
 
+### hugo module
+
+You may also install this theme as a [hugo module](https://gohugo.io/hugo-modules/use-modules/). Just run `hugo mod get` in your project root to add it:
+
+```shell
+hugo mod get github.com/joeroe/risotto
+```
+
 ## Update
 
 If you installed the theme using `git clone`, pull the repository to get the latest version:
